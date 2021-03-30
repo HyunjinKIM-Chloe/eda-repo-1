@@ -1,4 +1,4 @@
-#### Fast Campus Data Science School 17th <EDA project>
+Fast Campus Data Science School 17th <EDA project>
 ## ✨The Analysis of Consumption & Commercial District in Jeju✨
 
 ![jeju](https://user-images.githubusercontent.com/71582831/112963369-438ca980-9182-11eb-8ad6-e5dcee3ab197.jpg)
@@ -6,7 +6,7 @@
 
 ## 📜Reference
 ### API 
-  ##### 1. 제주도 내국인 관광객 지역, 업종, 성별, 연령대별 카드 이용 데이터 API
+  #### 1. 제주도 내국인 관광객 지역, 업종, 성별, 연령대별 카드 이용 데이터 API
     - 출처: 제주데이터랩 (https://www.jejudatahub.net/data/view/data/597)
     - 내용: columns = [일자, 시군구, 읍면동, 업종명, 관광객구분(제주도민/내국인관광객), 연령대, 성별, 이용자수, 이용횟수, 이용액]
     - 기간: 2017.01.01 ~ 2018.12.31
