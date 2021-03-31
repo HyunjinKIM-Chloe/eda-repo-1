@@ -37,7 +37,20 @@ Fast Campus Data Science School 17th <EDA project>
 
 ## ✒Hypotheses
 #### 1. Hotels in Jeju
+- 제주도 내 숙박 업종 분포
 
+Type  |        Spent Num Ranking   |   Total Spent Ranking   
+------------ | ---------------- | ----------------
+특급 호텔 | 2 | 1
+기타 숙박업 | 1 | 2
+2급 호텔 | 3 | 3
+1급 호텔 | 4 | 4
+    
+    
+    ▶ 1급 호텔의 이용객이 가장 적은 이유는 특급 호텔과 2급 호텔의 호텔 bill 단가를 비교했을 때 가격 차이가 크지 않기 때문이다.
+    ▶ 1급 호텔이 관광객 주 소비지역과 가까이 위치하지 않을 것이다.
+    ▶ 다른 숙박업종에 비해 군집을 이루지 않았을 가능성이 있다.
+    
 #### 2. Correlation of Income & jobs & Debt
     ▶ 제주도민의 소득, 직업(대기업,중소기업, 자영업 등), 부채, 신용도는 양의 비례 관계를 가질 것이다.
 
