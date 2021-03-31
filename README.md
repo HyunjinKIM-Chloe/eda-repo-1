@@ -37,7 +37,7 @@ Fast Campus Data Science School 17th <EDA project>
 
 ## ✒Hypotheses
 #### 1. Hotels in Jeju
-- 제주도 내 숙박 업종 분포
+- 제주도 내 숙박 업종 분포 (2020.05 ~ 2020.08)
 
 Type  |        Spent Num Ranking   |   Total Spent Ranking   
 ------------ | ---------------- | ----------------
