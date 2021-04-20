@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 7f92db25e99fd119a7c239b6ec1ae71554205f77
 Fast Campus Data Science School 17th <EDA project>
 ## ✨The Analysis of Consumption & Commercial District in Jeju✨
 
@@ -107,5 +110,9 @@ Fast Campus Data Science School 17th <EDA project>
        - Pandas DataFrame과 각종 시각화 툴(Matplotlib, Seaborn, Plotly, folium 등) 사용하여 데이터에 맞는 다양한 시각화 시도
        - 여러 개의 데이터 셋을 유기적으로 연계하여 분석 및 인사이트 도출
        - 크롤링 및 API 사용을 통해 필요한 데이터 수급 및 전처리 수행
+<<<<<<< HEAD
        - 신혼여행 및 사진 촬영등으로 유명한 제주도의 특성에 따른 특이한 업종(ex 정장)을 발견
 >>>>>>> 46133f22bbbc52611aecfc09671437d20886a537
+=======
+       - 신혼여행 및 사진 촬영등으로 유명한 제주도의 특성에 따른 특이한 업종(ex 정장)을 발견
+>>>>>>> 7f92db25e99fd119a7c239b6ec1ae71554205f77
