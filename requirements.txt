@@ -1,6 +1,0 @@
-jupyter
-numpy
-pandas
-requests
-pyproj
-ipython
