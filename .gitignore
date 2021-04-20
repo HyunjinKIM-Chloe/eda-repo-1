@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+datas/
+keys/
+eda/
+=======
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,jupyternotebooks,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,jupyternotebooks,python
@@ -220,3 +225,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,jupyternotebooks,python
 datas/
 keys/
+>>>>>>> b45659ff9742e66f5910017b1e323cc8cbd6d8e8
