@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 7f92db25e99fd119a7c239b6ec1ae71554205f77
-=======
->>>>>>> c34f19523a7680051699ed0a09400a2623cae693
 Fast Campus Data Science School 17th <EDA project>
 ## ✨The Analysis of Consumption & Commercial District in Jeju✨
 
@@ -14,27 +5,29 @@ Fast Campus Data Science School 17th <EDA project>
 
 ## :pencil:개요
 ### 1️⃣ 주제 선정 목적
-    - 제주도 소비/결제 데이터 및 지역별 업종 분석
-    - EDA를 통한 요소별 상관관계 분석 및 인사이트 도출
+- 제주도 소비/결제 데이터 및 지역별 업종 분석
+- EDA를 통한 요소별 상관관계 분석 및 인사이트 도출
   
 ### 2️⃣ Reference
-    ① 제주도 업종별 매출 데이터
-      - 출처: Dacon "공간정보 탐색적 데이터 분석 경진대회" 
-        (https://dacon.io/competitions/official/235682/data/)
-      - 목적: 지역별/시간대별 상세 업종 결제액 분석
-    ② 제주도 금융 생활 데이터 
-      - 출처: Dacon "KCB 금융스타일 시각화 경진대회"
-        (https://dacon.io/competitions/official/82407/overview/description/) 
-      - 목적: 직업, 소득, 연령 등 요소별 상관관계 분석
-    ③ 제주도 내국인 관광객 지역, 업종, 성별, 연령대별 카드 이용 데이터 API 
-      - 출처: 제주데이터랩 (https://www.jejudatahub.net/data/view/data/597)
-    ④ 카카오 지도 API
-      - 출처: kakao developers (https://developers.kakao.com/product/map)
-      - 목적: pyproj 활용, ITRF2000 기준 좌표계를 경도/위도 기준값으로 변환
-    ⑤ 제주도 호텔 데이터 크롤링
-      - 출처: 부킹닷컴
-      - 목적: 제주도 호텔 실 결제 데이터를 통해 관광객 선호 숙박 입지 분석 
+① 제주도 업종별 매출 데이터
+  - 출처: [Dacon "공간정보 탐색적 데이터 분석 경진대회"](https://dacon.io/competitions/official/235682/data/)
+  - 목적: 지역별/시간대별 상세 업종 결제액 분석
+  
+② 제주도 금융 생활 데이터 
+  - 출처: [Dacon "KCB 금융스타일 시각화 경진대회"](https://dacon.io/competitions/official/82407/overview/description/) 
+  - 목적: 직업, 소득, 연령 등 요소별 상관관계 분석
 
+③ 제주도 내국인 관광객 지역, 업종, 성별, 연령대별 카드 이용 데이터 API 
+  - 출처: [제주데이터랩](https://www.jejudatahub.net/data/view/data/597)
+
+④ 카카오 지도 API
+  - 출처: [kakao developers](https://developers.kakao.com/product/map)
+  - 목적: pyproj 활용, ITRF2000 기준 좌표계를 경도/위도 기준값으로 변환
+  
+⑤ 제주도 호텔 데이터 크롤링
+  - 출처: [부킹닷컴](https://www.booking.com/)
+  - 목적: 제주도 호텔 실 결제 데이터를 통해 관광객 선호 숙박 입지 분석 
+  
 ---
 
 ## :page_with_curl: 목차
@@ -50,7 +43,6 @@ Fast Campus Data Science School 17th <EDA project>
      H3: 고소득/고소비층 소비자의 활동 영역은 밀집되어 있을 것이다.
        - H3-1: 고소득/고소비 제주도민의 거주지는 밀집되어 있을 것이다.
        - H3-2: 고소득/고소비 관광객이 묵는 숙박업소는 밀집되어 있을 것이다.
-     H4: 특정 업종이 특화된 지역이 있을 것이다.
     
 #### 서론 : 제주도민과 관광객의 소비 특성 비교
     - H1 결론: 제주도민과 관광객은 소비 금액 / 횟수 / 객수의 업종별로 비슷한 양상을 보인다.
@@ -98,27 +90,16 @@ Fast Campus Data Science School 17th <EDA project>
 #### 결론 : 제주도 사업 인기 업종과 특화 지역
     - 매출액이 높은 업종(일반한식, 서양음식, 편의점, 정장)의 분포 상위 지역은 대체로 제주시에 위치
     - 매출액이 높은 8개 지역 중에서도 고소득/고소비 거주민 밀집도가 높은 지역 (연동, 이도2동)이 상위권을 차지
-    - H4: 특정 업종이 특화된 지역이 있을 것이다.
-      H4 결론: 
-      지역의 특성에 따른 특정 업종 활성화보다는, 상권의 구매력이나 업종 자체의 매출액 규모이 중요한 요인으로 판단된다.
                 
 
 ### EDA 프로젝트를 마치며...
      1. 한계점 및 아쉬운 점
        - 특정 업종/지역에 매출이 높다는 건 수요와 공급이 모두 많다는 뜻이고 이미 레드 오션일 수도 있으나,
          매출액이 높다는 것이 곧 인기가 많고 기회가 있는 것으로 가정
-       - 제주도 업체 및 매출 데이터를 찾지 못하여, 고객 결제 데이터로 갈음
+       - 제주도 업체 및 매출 데이터 수급이 어려워, 고객 결제 데이터로 갈음
        - 데이터 양이 많아 위도/경도/동 이름 변환 소요 시간이 길어 데이터의 일부만 샘플링하여 진행
      2. 의의 및 느낀 점
        - Pandas DataFrame과 각종 시각화 툴(Matplotlib, Seaborn, Plotly, folium 등) 사용하여 데이터에 맞는 다양한 시각화 시도
        - 여러 개의 데이터 셋을 유기적으로 연계하여 분석 및 인사이트 도출
        - 크롤링 및 API 사용을 통해 필요한 데이터 수급 및 전처리 수행
-<<<<<<< HEAD
        - 신혼여행 및 사진 촬영등으로 유명한 제주도의 특성에 따른 특이한 업종(ex 정장)을 발견
-<<<<<<< HEAD
->>>>>>> 46133f22bbbc52611aecfc09671437d20886a537
-=======
-       - 신혼여행 및 사진 촬영등으로 유명한 제주도의 특성에 따른 특이한 업종(ex 정장)을 발견
->>>>>>> 7f92db25e99fd119a7c239b6ec1ae71554205f77
-=======
->>>>>>> c34f19523a7680051699ed0a09400a2623cae693
