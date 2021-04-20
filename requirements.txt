@@ -4,3 +4,10 @@ pandas
 requests
 pyproj
 ipython
+geopandas
+matplotlib.pyplot
+matplotlib
+folium
+plotly.express
+platform
+json
